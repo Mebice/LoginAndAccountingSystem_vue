@@ -22,21 +22,6 @@ const router = createRouter({
       name: 'Accounting',
       component: () => import('../views/Accounting.vue')
     },
-    {
-      path: '/ForgetPwd',
-      name: 'ForgetPwd',
-      component: () => import('../views/ForgetPwd.vue')
-    },
-    {
-      path: '/Test',
-      name: 'Test',
-      component: () => import('../views/Test.vue')
-    },
-    {
-      path: '/Xxx',
-      name: 'Xxx',
-      component: () => import('../views/Xxx.vue')
-    },
   ]
 })
 
