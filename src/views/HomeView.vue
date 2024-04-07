@@ -64,9 +64,6 @@ export default {
             }
         },
 
-        toForgetPwd(){
-            this.$router.push('/ForgetPwd'); // 導航到登入頁面
-        }
     }
 }
 
@@ -111,8 +108,6 @@ export default {
 
             </div>
         </div>
-
-        <div class="forgetPwd" @click="toForgetPwd">ForgetPwd</div>
 
         <!-- 註冊及登入按鈕 -->
         <div class="btnLoginarea">
